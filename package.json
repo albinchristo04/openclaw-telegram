@@ -1,0 +1,15 @@
+{
+  "name": "openclaw-telegram",
+  "version": "1.0.0",
+  "description": "openclaw-telegram",
+  "main": "index.js",
+  "scripts": {
+    "start": "openclaw gateway start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "openclaw": "^2026.2.3-1"
+  }
+}
