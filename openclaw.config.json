@@ -1,0 +1,16 @@
+{
+  "models": {
+    "default": {
+      "provider": "openai",
+      "baseURL": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "model": "gemini-1.5-flash",
+      "apiKey": "${GEMINI_API_KEY}"
+    }
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "botToken": "${TELEGRAM_BOT_TOKEN}"
+    }
+  }
+}
